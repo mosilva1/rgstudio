@@ -43,8 +43,8 @@
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #fff;
-  --bs-primary-rgb: 100, 161, 157;
-  --bs-secondary-rgb: 116, 100, 161;
+  --bs-primary-rgb: #000;
+  --bs-secondary-rgb: #000;
   --bs-success-rgb: 103, 194, 156;
   --bs-info-rgb: 28, 171, 196;
   --bs-warning-rgb: 228, 198, 98;
@@ -239,11 +239,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #000;
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #313736;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3584,11 +3584,11 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #64a19d;
+  color: #313736;
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #50817e;
+  color: #313736;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4066,7 +4066,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #50817e;
+  color: #313736;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4552,7 +4552,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -11479,8 +11479,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #212529 ;
+  border: 1px solid #212529 ;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11509,12 +11509,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -11531,18 +11531,18 @@ body {
   #mainNav.navbar-shrink .nav-link {
     color: #000;
     padding: 1.5rem 1.5rem 1.25rem;
-    border-bottom: 0.25rem solid transparent;
+    border-bottom: 0.25rem solid transparent #000;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #313736;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #313736;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #000;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #000;
   }
 }
 
@@ -11562,7 +11562,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-nosso.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11621,7 +11621,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #0001;
   }
 }
 .projects-section .project-text {
@@ -11640,8 +11640,8 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  padding: 5rem 0;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11659,11 +11659,11 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 6rem;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #212529 ;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11696,5 +11696,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding-bottom: 1rem;
 }
