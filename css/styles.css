@@ -11540,9 +11540,9 @@ body {
     color: #313736;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #000;
+    color: #fff;
     outline: none;
-    border-bottom: 0.25rem solid #000;
+    border-bottom: 0.25rem solid #fff;
   }
 }
 
@@ -11670,7 +11670,8 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #0001;
+    
+    margin: 0;
   }
 }
 .projects-section .project-text {
@@ -11680,11 +11681,13 @@ body {
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+    margin: 0;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
-    width: 30%;
+    width: 10%;
+    margin: 0;
   }
 }
 
