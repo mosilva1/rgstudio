@@ -13,35 +13,45 @@
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/idioma.css">
     </head>
     <body id="page-top">
-        <!-- Inicio do corpo da página -->
-
-        <!-- Conteúdo da página -->
-
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
+        <!-- VLibras-->
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+            </div>
         </div>
-    </div>
         <!-- Navigation-->
         <header class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <nav class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">
-                    <img src="assets/rg-b.png" width="50" height="30" class="d-inline-block align-text-top">   STUDIO +</a>
+                    <img src="assets/rg-b.png" width="50" height="30" class="d-inline-block align-text-top">STUDIO +</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFÓLIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
-                        <li class="nav-item"><a class="nav-link" href="mostras.html">MOSTRAS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
-                    </ul>
+                    <nav class="nav-menu">                 
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFÓLIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
+                            <li class="nav-item"><a class="nav-link" href="mostras.html">MOSTRAS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
+                            <div class="language">
+                                <div class="language-selected">
+                                    Português
+                                </div>
+                                <ul>
+                                    <li><a href="#" class="br">Português</a></li>
+                                    <li><a href="#" class="en">Inglês</a></li>
+                                    <li><a href="#" class="es">Espanhol</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </nav>
                 </div>
             </nav>
         </header>
@@ -52,7 +62,7 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">
                         <img src="assets/rg-b.png" width="160" height="100" class="d-inline-block align-text-top mx-auto mt-2 mb-5">  studio+</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">ARQUITETURA</h2>
+                        <h2 class="title text-white-50 mx-auto mt-2 mb-5">ARQUITETURA</h2>
                     </div>
                 </div>
             </div>
@@ -64,8 +74,8 @@
                     <div class="col-xl-7 col-lg-7"><img class="img-fluid rounded mx-auto d-block " src="assets/img/perfil-bp.jpg" alt="..." /></div>
                     <div class="col-xl-3 col-lg-2">
                         <div class="featured-text text-justify">
-                            <h4>Ricardo Gaspar</h4>
-                            <p class="text-black-50 mb-0">
+                            <h4 class="nome">Ricardo Gaspar</h4>
+                            <p class="historia text-black-50 mb-0">
                                 Ricardo Gaspar fundou o RG Studio + estabelecendo uma trajetória para que seu nome passasse a ser uma referência no cenário do universo da decoração, através de longos anos de dedicação a projetos voltados a diversos setores, como residencial, comercial e paisagismo, em todo o estado de São Paulo. A busca pela personalização dos trabalhos reflete-se no resultado final de cada projeto de arquitetura, independente do perfil dos clientes, assim como estilos e expectativas, uma vez que o intuito é sempre criar ambientes que possam aliar conforto, harmonia, praticidade, estética e qualidade.    
                             </p>
                         </div>
@@ -81,7 +91,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">LOCALIZAÇÃO</h4>
+                                <h4 class="local text-uppercase m-0">LOCALIZAÇÃO</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Av. PRUDENTE DE MORAES, 684 - CENTRO | MATÃO</div>
                             </div>
@@ -101,7 +111,7 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Contato</h4>
+                                <h4 class="numero text-uppercase m-0">Contato</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">(16) 99702-0441</div>
                             </div>
@@ -117,15 +127,15 @@
         </footer>
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"></footer>
-        <!-- Bootstrap core JS-->
+
+
+        <!-- Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!--Idioma-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/idioma.js"></script>
+        <!--VLibras-->
         <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
         <script>
             new window.VLibras.Widget('https://vlibras.gov.br/app');
