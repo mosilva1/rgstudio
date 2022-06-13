@@ -15,10 +15,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet">
         <link rel="stylesheet" href="css/idioma.css">
+
     </head>
     <body id="page-top">
         <!-- VLibras-->
-        <div vw class="enabled">
+        <div vw class="enabled" role="Libras">
             <div vw-access-button class="active"></div>
             <div vw-plugin-wrapper>
             <div class="vw-plugin-top-wrapper"></div>
@@ -26,42 +27,41 @@
         </div>
         <!-- Navigation-->
         <header class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <nav class="container px-4 px-lg-5">
+            <nav class="container px-4 px-lg-5" role="navigation">
                 <a class="navbar-brand" href="#page-top">
                     <img src="assets/rg-b.png" width="50" height="30" class="d-inline-block align-text-top">STUDIO +</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <nav class="nav-menu">                 
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-                            <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFÓLIO</a></li>
-                            <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
-                            <li class="nav-item"><a class="nav-link" href="mostras.html">MOSTRAS</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
-                            <div class="language">
-                                <div class="language-selected">
-                                    Português
-                                </div>
-                                <ul>
-                                    <li><a href="#" class="br">Português</a></li>
-                                    <li><a href="#" class="en">Inglês</a></li>
-                                    <li><a href="#" class="es">Espanhol</a></li>
-                                </ul>
+                <div class="collapse navbar-collapse" id="navbarResponsive">                
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">PORTFÓLIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="design.html">DESIGN</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mostras.html">MOSTRAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">CONTATO</a></li>
+                        <div class="language" role="idiomas">
+                            <div class="language-selected">
+                                PORTUGUÊS
                             </div>
-                        </ul>
-                    </nav>
+                            <ul>
+                                <li><a href="#" class="br">PORTUGUÊS</a></li>
+                                <li><a href="#" class="en">INGLÊS</a></li>
+                                <li><a href="#" class="es">ESPANHOL</a></li>
+                            </ul>
+                        </div>
+                    </ul>
                 </div>
             </nav>
+            <button class="contraste" role="contraste" title="CONTRASTE"><img src="assets/contraste.png"></button>
         </header>
         <!-- Masthead-->
         <section class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">
-                        <img src="assets/rg-b.png" width="160" height="100" class="d-inline-block align-text-top mx-auto mt-2 mb-5">  studio+</h1>
+                        <h1 class="mx-auto my-0 text-uppercase" role="R G studio mais">
+                        <img src="assets/rg-b.png" width="160" height="100" class="d-inline-block align-text-top mx-auto mt-2 mb-5"> studio +</h1>
                         <h2 class="title text-white-50 mx-auto mt-2 mb-5">ARQUITETURA</h2>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                     <div class="col-xl-7 col-lg-7"><img class="img-fluid rounded mx-auto d-block " src="assets/img/perfil-bp.jpg" alt="..." /></div>
                     <div class="col-xl-3 col-lg-2">
                         <div class="featured-text text-justify">
-                            <h4 class="nome">Ricardo Gaspar</h4>
+                            <h2 class="nome">Ricardo Gaspar</h2>
                             <p class="historia text-black-50 mb-0">
                                 Ricardo Gaspar fundou o RG Studio + estabelecendo uma trajetória para que seu nome passasse a ser uma referência no cenário do universo da decoração, através de longos anos de dedicação a projetos voltados a diversos setores, como residencial, comercial e paisagismo, em todo o estado de São Paulo. A busca pela personalização dos trabalhos reflete-se no resultado final de cada projeto de arquitetura, independente do perfil dos clientes, assim como estilos e expectativas, uma vez que o intuito é sempre criar ambientes que possam aliar conforto, harmonia, praticidade, estética e qualidade.    
                             </p>
